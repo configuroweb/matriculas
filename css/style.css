@@ -1,0 +1,38 @@
+.infotable th, .infotable td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 15px;
+}
+.infotable{
+	width: 100%;
+}
+.infotable th{
+	background: #000;
+	color: #fff;
+}
+.loginform{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+footer{
+	background: #007BFF;
+	color:#fff;
+	padding: 20px 0px 5px 5px;
+	margin-top: 20px;
+}
+.error{
+	color: red;
+	font-style: italic;
+}
+
+input#photo {
+    width: 260px;
+}
+
+img.showimg{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
