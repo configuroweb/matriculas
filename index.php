@@ -15,7 +15,7 @@
   <body>
     <div class="container"><br>
       <a class="btn btn-primary float-right" href="admin/login.php">Panel Administrativo</a>
-          <h1 class="text-center">Sistema de Matrícula de Estudiantes</h1><br>
+          <h1 class="text-center">Sistema de Información de Estudiantes</h1><br>
 
           <div class="row">
             <div class="col-md-4 offset-md-4">
@@ -28,7 +28,7 @@
               </tr>
               <tr>
                 <td>
-                   <p>Selecciona el Curso</p>
+                   <p>Selecciona el Semestre</p>
                 </td>
                 <td>
                    <select class="form-control" name="choose">
@@ -50,16 +50,25 @@
                      <option value="Quinto">
                        Quinto
                      </option>
+                     <option value="Sexto">
+                       Sexto
+                     </option>
+                     <option value="Septimo">
+                       Septimo
+                     </option>
+                     <option value="Octavo">
+                       Octavo
+                     </option>
                    </select>
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <p><label for="roll">Número Matricula</label></p>
+                  <p><label for="roll">ID de Estudiante</label></p>
                 </td>
                 <td>
-                  <input class="form-control" type="text" pattern="[0-9]{6}" id="roll" placeholder="6 dígitos..." name="roll">
+                <input name="roll" type="text" class="form-control" id="roll" value="<?= isset($roll) ? $roll : ''; ?>" required="">
                 </td>
               </tr>
               <tr>
@@ -107,7 +116,7 @@
                 <td><?= isset($city)?$city:'';?></td>
               </tr>
               <tr>
-                <td>Fecha de Ingreso</td>
+                <td>Numero de Referencia</td>
                 <td><?= isset($pcontact)?$pcontact:'';?></td>
               </tr>
             </table>

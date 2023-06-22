@@ -81,8 +81,6 @@ if (!isset($_SESSION['user_login'])) {
     </div>
     <div class="clearfix"></div>
     
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      <center><h2>Para más desarrollos gratuitos accede a <a href="https://www.configuroweb.com/tag/php/">ConfiguroWeb</a></h2></center>
       
     
     <script type="text/javascript">

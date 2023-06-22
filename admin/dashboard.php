@@ -115,6 +115,7 @@
       <th scope="col">Dirección</th>
       <th scope="col">Contacto</th>
       <th scope="col">Fotografía</th>
+      <th scope="col">Carrera</th>
     </tr>
   </thead>
   <tbody>
@@ -129,6 +130,7 @@
           <td>'.$result['roll'].'</td>
           <td>'.ucwords($result['city']).'</td>
           <td>'.$result['pcontact'].'</td>
+          <td>'.ucwords($result['carrera']).'</td>
           <td><img src="images/'.$result['photo'].'" height="50px"></td>';?>
       </tr>  
      <?php $i++;} ?>
